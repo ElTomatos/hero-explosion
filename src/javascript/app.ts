@@ -1,3 +1,16 @@
+/**
+ * Styles
+ */
 import '../scss/app.scss';
 
-console.log('test');
+/**
+ * Hero
+ */
+import initHero from './hero';
+
+/**
+ * Init
+ */
+document.addEventListener('DOMContentLoaded', () => {
+    initHero();
+});
